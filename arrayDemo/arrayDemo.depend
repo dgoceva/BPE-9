@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1646131820 source:c:\lectures\bpe\demos-9\arraydemo\main.c
+	"utils.h"
+
+1646132025 c:\lectures\bpe\demos-9\arraydemo\utils.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1646132472 source:c:\lectures\bpe\demos-9\arraydemo\utils.c
+	"utils.h"
+
