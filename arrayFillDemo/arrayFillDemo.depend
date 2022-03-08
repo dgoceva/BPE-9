@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1646737154 source:c:\samples\bpe-9\arrayfilldemo\main.c
+	"array.h"
+
+1646737763 c:\samples\bpe-9\arrayfilldemo\array.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1646737753 source:c:\samples\bpe-9\arrayfilldemo\array.c
+	"array.h"
+

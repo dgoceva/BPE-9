@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1646735999 source:c:\samples\bpe-9\sin_x\sinx.c
+	"sinx.h"
+
+1646735960 c:\samples\bpe-9\sin_x\sinx.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1646734559 source:c:\samples\bpe-9\sin_x\main.c
+	"sinx.h"
+
