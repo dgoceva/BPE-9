@@ -50,6 +50,6 @@
  int main()
  {
 //     main1();
-//        main2();
+        main2();
         return EXIT_SUCCESS;
  }
