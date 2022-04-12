@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 #define BOOLEAN int
 #define FALSE 0
@@ -43,8 +44,19 @@ int main(int argc, char *argv[])
      BOOLEAN print_c=FALSE,print_m=FALSE,print_L=FALSE;
 
      mainCounting(&nc,&nw,&nl);
+     inputOptionDetect(argc,argv,&print_c,&print_m,&print_L);
 
-     printf("%d\t%d\t%d\n",nl,nw,nc);
+     if (print_L)
+        printf("%d\t",nl);
+     if (print_m)
+        printf("%d\t",nc);
+     if (print_c)
+        printf("%d\t",nc);
+
+     if (!print_c &&!print_L&&!print_m)
+        printf("%d\t%d\t%d\n",nl,nw,nc);
+     else
+        printf("\n");
 
      return 0;
  }

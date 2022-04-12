@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1649760680 source:c:\samples\bpe-9\structdemo\main.c
+	"student.h"
+
+1649760920 c:\samples\bpe-9\structdemo\student.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1649761004 source:c:\samples\bpe-9\structdemo\student.c
+	"student.h"
+
+1649754302 source:c:\samples\bpe-9\structdemo\exstruct.c
+	<stdio.h>
+
